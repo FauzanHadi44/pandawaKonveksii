@@ -16,7 +16,7 @@ const OurProductsSection = () => {
     document.body.style.overflow = 'auto';
   };
   return (
-    <section id="produk" className="py-24 bg-[#F3F3F3] text-gray-900 font-sans">
+    <section id="produk" className="py-24 bg-[#F3F3F3] border-b border-gray-300 text-gray-900 font-sans">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-gray-500 text-sm font-bold tracking-widest uppercase">

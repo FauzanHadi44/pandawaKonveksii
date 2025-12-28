@@ -5,6 +5,7 @@ import OurProductsSection from "../src/components/sections/OurProductsSection";
 import HowToOrderSection from "../src/components/sections/HowToOrderSection";
 import FaqSection from "../src/components/sections/FaqSection";
 import TestimonialSection from "../src/components/sections/TestimonialSection";
+import GallerySection from "../src/components/sections/GallerySection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <WhyChooseUsSection />
       <OurProductsSection />
+      <GallerySection />
       <TestimonialSection />
       <HowToOrderSection />
       <FaqSection />
