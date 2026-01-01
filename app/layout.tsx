@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pandawa Konveksi - Solusi Konveksi Terpercaya",
-  description: "Pandawa Konveksi menyediakan layanan konveksi berkualitas untuk kaos custom, jaket, seragam kantor, dan jersey olahraga dengan harga bersaing.",
+  title: "ANSA Konveksi - Solusi Konveksi Terpercaya",
+  description: "ANSA Konveksi menyediakan layanan konveksi berkualitas untuk kaos custom, jaket, seragam kantor, dan jersey olahraga dengan harga bersaing.",
 };
 
 export default function RootLayout({

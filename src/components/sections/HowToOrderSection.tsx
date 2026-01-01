@@ -21,12 +21,10 @@ const HowToOrderSection = () => {
         <section id="cara-pesan" className="py-24 bg-white border-b border-gray-300 text-gray-900 font-sans">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col lg:flex-row gap-12 items-center">
-                    {/* Left Side - Steps Grid (order-2 on mobile, order-1 on desktop) */}
                     <div className="lg:w-2/3 order-2 lg:order-1">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {steps.map((step, index) => (
                                 <div key={index} className="relative flex flex-col items-start p-6 bg-gray-50 rounded-2xl border border-gray-200 hover:border-black hover:shadow-lg transition-all duration-300 group">
-                                    {/* Icon and Number */}
                                     <div className="relative mb-4">
                                         <div className="w-16 h-16 bg-white rounded-full border border-gray-200 shadow-md flex items-center justify-center group-hover:scale-110 group-hover:border-black transition-all duration-300">
                                             <div className="text-gray-400 group-hover:text-black transition-colors duration-300">
@@ -37,8 +35,6 @@ const HowToOrderSection = () => {
                                             {step.id}
                                         </div>
                                     </div>
-
-                                    {/* Content */}
                                     <h3 className="text-lg font-bold text-black mb-2 group-hover:text-gray-700 transition-colors">
                                         {step.title}
                                     </h3>
@@ -49,8 +45,6 @@ const HowToOrderSection = () => {
                             ))}
                         </div>
                     </div>
-
-                    {/* Right Side - Title and CTA (order-1 on mobile, order-2 on desktop) */}
                     <div className="lg:w-1/3 text-center lg:text-left order-1 lg:order-2">
                         <span className="text-gray-500 font-bold text-sm tracking-widest uppercase mb-3 block">
                             Alur Pemesanan

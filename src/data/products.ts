@@ -1,5 +1,3 @@
-// data/products.ts
-
 export interface MaterialOption {
     name: string;
     description: string;
@@ -18,7 +16,7 @@ export const productsData: Product[] = [
         id: 1,
         category: "Semi-Formal",
         title: "Kemeja PDH / Korsa",
-        imageSrc: "/image/baju/kemeja.png",
+        imageSrc: "/image/produk/kemeja.png",
         alternativeMaterials: [
             { 
                 name: "American Drill", 
@@ -42,7 +40,7 @@ export const productsData: Product[] = [
         id: 2,
         category: "Outerwear",
         title: "Jaket Bomber / Parka & Hoodie",
-        imageSrc: "/image/baju/jaket.png",
+        imageSrc: "/image/produk/jaket.png",
         alternativeMaterials: [
             { 
                 name: "Taslan Latex", 
@@ -74,7 +72,7 @@ export const productsData: Product[] = [
         id: 3,
         category: "Casual",
         title: "Kaos Sablon (T-Shirt)",
-        imageSrc: "/image/baju/kaos.png",
+        imageSrc: "/image/produk/kaos.png",
         alternativeMaterials: [
             { name: "Cotton Combed 24s", description: "Standar Distro. 100% Katun, tebal sedang, sangat halus & adem. Tidak menerawang." },
             { name: "PE Double (DKPE)", description: "Bahan Tebal Ekonomis. Rajutan ganda yang kokoh, awet, cocok untuk seragam sekolah." },
@@ -85,7 +83,7 @@ export const productsData: Product[] = [
         id: 4,
         category: "Semi-Formal",
         title: "Polo Shirt Bordir",
-        imageSrc: "/image/baju/polo.png",
+        imageSrc: "/image/produk/polo.png",
         alternativeMaterials: [
             { 
                 name: "Lacoste PE", 
@@ -105,7 +103,7 @@ export const productsData: Product[] = [
         id: 5,
         category: "Sportwear",
         title: "Polo Shirt (Printing/Sublim)",
-        imageSrc: "/image/baju/poloPrinting.png",
+        imageSrc: "/image/produk/poloPrinting.png",
         alternativeMaterials: [
             { 
                 name: "Dryfit Milano", 
@@ -133,7 +131,7 @@ export const productsData: Product[] = [
         id: 6,
         category: "Sportwear",
         title: "Jersey Olahraga",
-        imageSrc: "/image/baju/jersey.png",
+        imageSrc: "/image/produk/jersey.png",
         alternativeMaterials: [
             { 
                 name: "Dryfit Milano", 
@@ -158,7 +156,7 @@ export const productsData: Product[] = [
         id: 7,
         category: "Bottoms",
         title: "Celana (Formal/Training)",
-        imageSrc: "/image/baju/celana.png",
+        imageSrc: "/image/produk/celana.png",
         alternativeMaterials: [
             { 
                 name: "American Drill", 

@@ -10,12 +10,12 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div>
-                        <div className="mb-6 w-20 h-20 rounded-xl bg-black flex items-center justify-center p-2">
+                        <div className="mb-6 w-40 h-20 rounded-xl bg-white shadow-lg flex items-center justify-center p-2">
                             <Image
-                                src="/image/logo.png"
-                                alt="Pandawa Konveksi Logo"
-                                width={80}
-                                height={80}
+                                src="/image/logo/logo1.png"
+                                alt="ANSA Konveksi Logo"
+                                width={200}
+                                height={200}
                                 className="object-contain"
                             />
                         </div>
@@ -106,7 +106,7 @@ const Footer = () => {
                 </div>
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-gray-400 text-sm text-center md:text-left">
-                        &copy; {new Date().getFullYear()} <span className="text-black font-bold">Pandawa Konveksi</span>. All rights reserved.
+                        &copy; {new Date().getFullYear()} <span className="text-black font-bold">ANSA Konveksi</span>. All rights reserved.
                     </p>
                     <div className="flex gap-6 text-xs text-gray-400 font-medium">
                         <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>

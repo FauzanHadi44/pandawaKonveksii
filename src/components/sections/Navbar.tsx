@@ -30,7 +30,7 @@ export default function Navbar() {
                         <div className="relative transition-transform duration-300 group-hover:scale-110 overflow-hidden p-2">
                             <div className="w-full h-full flex items-center justify-center">
                                 <Image
-                                    src="/image/logow.png"
+                                    src="/image/logo/logo1.png"
                                     alt="Pandawa Konveksi Logo"
                                     width={150}
                                     height={150}
