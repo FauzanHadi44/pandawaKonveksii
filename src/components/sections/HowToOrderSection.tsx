@@ -47,7 +47,7 @@ const HowToOrderSection = () => {
                         </p>
 
                         <a
-                            href="https://wa.me/6287809446266?text=Halo%20Admin%20Pandawa%20Konveksi%2C%0A%0ASaya%20ingin%20konsultasi%20gratis%20mengenai%3A%0A-%20Jenis%20produk%20yang%20saya%20butuhkan%0A-%20Bahan%20yang%20tersedia%0A-%20Harga%20dan%20MOQ%0A-%20Waktu%20pengerjaan%0A%0ATerima%20kasih!"
+                            href="https://wa.me/6287809446266?text=Halo%20Admin%20ANSA%20Konveksi%2C%0A%0ASaya%20ingin%20konsultasi%20gratis%20mengenai%3A%0A-%20Jenis%20produk%20yang%20saya%20butuhkan%0A-%20Bahan%20yang%20tersedia%0A-%20Harga%20dan%20MOQ%0A-%20Waktu%20pengerjaan%0A%0ATerima%20kasih!"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-black text-white font-bold py-4 px-8 rounded-full hover:bg-gray-800 hover:shadow-lg transition-all duration-300 inline-flex items-center gap-2"

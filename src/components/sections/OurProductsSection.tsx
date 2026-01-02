@@ -92,7 +92,7 @@ const OurProductsSection = () => {
               </div>
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <a
-                  href={`https://wa.me/6287809446266?text=Halo%20Admin%20Pandawa%20Konveksi%2C%0A%0ASaya%20tertarik%20dengan%20produk%20*${encodeURIComponent(selectedProduct.title)}*%20dan%20ingin%20konsultasi%20lebih%20lanjut%20mengenai%3A%0A-%20Pilihan%20bahan%20yang%20tersedia%0A-%20Harga%20dan%20MOQ%0A-%20Waktu%20pengerjaan%0A%0ATerima%20kasih!`}
+                  href={`https://wa.me/6287809446266?text=Halo%20Admin%20ANSA%20Konveksi%2C%0A%0ASaya%20tertarik%20dengan%20produk%20*${encodeURIComponent(selectedProduct.title)}*%20dan%20ingin%20konsultasi%20lebih%20lanjut%20mengenai%3A%0A-%20Pilihan%20bahan%20yang%20tersedia%0A-%20Harga%20dan%20MOQ%0A-%20Waktu%20pengerjaan%0A%0ATerima%20kasih!`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-black text-white font-bold py-4 rounded-xl hover:bg-gray-800 hover:shadow-lg transition-all flex justify-center items-center gap-2"

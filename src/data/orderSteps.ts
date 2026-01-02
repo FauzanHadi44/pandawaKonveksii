@@ -6,7 +6,7 @@ export interface OrderStep {
     id: string;
     title: string;
     description: string;
-    icon: string; // Icon name from lucide-react
+    icon: string; 
 }
 
 export const orderStepsData: OrderStep[] = [

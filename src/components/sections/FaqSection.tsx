@@ -24,7 +24,7 @@ const FaqSection = () => {
                         Masih ada pertanyaan yang belum terjawab? Jangan ragu untuk chat langsung dengan tim kami.
                     </p>
                     <a
-                        href="https://wa.me/6287809446266?text=Halo%20Admin%20Pandawa%20Konveksi%2C%0A%0ASaya%20memiliki%20beberapa%20pertanyaan%20mengenai%3A%0A-%20Produk%20dan%20layanan%0A-%20Harga%20dan%20pemesanan%0A-%20Proses%20produksi%0A%0AMohon%20informasinya.%20Terima%20kasih!"
+                        href="https://wa.me/6287809446266?text=Halo%20Admin%20ANSA%20Konveksi%2C%0A%0ASaya%20memiliki%20beberapa%20pertanyaan%20mengenai%3A%0A-%20Produk%20dan%20layanan%0A-%20Harga%20dan%20pemesanan%0A-%20Proses%20produksi%0A%0AMohon%20informasinya.%20Terima%20kasih!"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 bg-black text-white font-bold py-4 px-8 rounded-full hover:bg-gray-800 hover:shadow-lg transition-all duration-300 group"

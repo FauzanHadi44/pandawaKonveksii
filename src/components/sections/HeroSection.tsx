@@ -34,7 +34,7 @@ export default function HeroSection() {
                         className="px-8 py-6 text-lg rounded-full bg-white border-2 border-white text-black hover:bg-black hover:text-white hover:border-black transition-all duration-300 font-bold shadow-lg hover:shadow-xl hover:-translate-y-1"
                     >
                         <a
-                            href="https://wa.me/6287809446266?text=Halo%20Pandawa%20Konveksi,%20saya%20tertarik%20untuk%20konsultasi%20dan%20memesan%20produk%20konveksi.%20Mohon%20informasi%20lebih%20lanjut."
+                            href="https://wa.me/6287809446266?text=Halo%20ANSA%20Konveksi,%20saya%20tertarik%20untuk%20konsultasi%20dan%20memesan%20produk%20konveksi.%20Mohon%20informasi%20lebih%20lanjut."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
