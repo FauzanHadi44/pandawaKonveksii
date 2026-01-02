@@ -3,6 +3,7 @@
 import React from 'react';
 import { MessageSquare, FileText, Settings, Truck, ArrowRight, LucideIcon } from 'lucide-react';
 import { orderStepsData } from '@/src/data/orderSteps';
+import { OrderStepCard } from '@/src/components/ui/OrderStepCard';
 
 const HowToOrderSection = () => {
     // Icon mapping
@@ -24,24 +25,13 @@ const HowToOrderSection = () => {
                     <div className="lg:w-2/3 order-2 lg:order-1">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {steps.map((step, index) => (
-                                <div key={index} className="relative flex flex-col items-start p-6 bg-gray-50 rounded-2xl border border-gray-200 hover:border-black hover:shadow-lg transition-all duration-300 group">
-                                    <div className="relative mb-4">
-                                        <div className="w-16 h-16 bg-white rounded-full border border-gray-200 shadow-md flex items-center justify-center group-hover:scale-110 group-hover:border-black transition-all duration-300">
-                                            <div className="text-gray-400 group-hover:text-black transition-colors duration-300">
-                                                {step.iconComponent && <step.iconComponent className="w-6 h-6" />}
-                                            </div>
-                                        </div>
-                                        <div className="absolute -top-2 -right-2 w-7 h-7 bg-black text-white rounded-full flex items-center justify-center text-xs font-bold shadow-lg">
-                                            {step.id}
-                                        </div>
-                                    </div>
-                                    <h3 className="text-lg font-bold text-black mb-2 group-hover:text-gray-700 transition-colors">
-                                        {step.title}
-                                    </h3>
-                                    <p className="text-sm text-gray-600 leading-relaxed">
-                                        {step.description}
-                                    </p>
-                                </div>
+                                <OrderStepCard
+                                    key={index}
+                                    id={step.id}
+                                    icon={step.iconComponent}
+                                    title={step.title}
+                                    description={step.description}
+                                />
                             ))}
                         </div>
                     </div>

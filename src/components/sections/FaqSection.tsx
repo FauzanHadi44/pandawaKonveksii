@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Plus, Minus, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { faqsData } from '@/src/data/faqs';
+import { FAQCard } from '@/src/components/ui/FAQCard';
 
 const FaqSection = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -35,31 +36,13 @@ const FaqSection = () => {
                 <div className="md:w-2/3">
                     <div className="space-y-4">
                         {faqsData.map((faq, index) => (
-                            <div
+                            <FAQCard
                                 key={index}
-                                className={`border border-gray-200 rounded-2xl overflow-hidden transition-all duration-300 ${openIndex === index ? 'bg-gray-50 border-black' : 'bg-white hover:border-gray-300'
-                                    }`}
-                            >
-                                <button
-                                    onClick={() => toggleFaq(index)}
-                                    className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
-                                >
-                                    <span className={`font-bold text-lg ${openIndex === index ? 'text-black' : 'text-gray-700'}`}>
-                                        {faq.question}
-                                    </span>
-                                    <span className="ml-4 flex-shrink-0 text-black">
-                                        {openIndex === index ? <Minus className="w-6 h-6" /> : <Plus className="w-6 h-6" />}
-                                    </span>
-                                </button>
-                                <div
-                                    className={`px-6 overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? 'max-h-48 opacity-100 pb-6' : 'max-h-0 opacity-0'
-                                        }`}
-                                >
-                                    <p className="text-gray-600 leading-relaxed border-t border-gray-200 pt-4">
-                                        {faq.answer}
-                                    </p>
-                                </div>
-                            </div>
+                                question={faq.question}
+                                answer={faq.answer}
+                                isOpen={openIndex === index}
+                                onToggle={() => toggleFaq(index)}
+                            />
                         ))}
                     </div>
                 </div>

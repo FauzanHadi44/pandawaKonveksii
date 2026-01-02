@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { X, Plus } from 'lucide-react';
 import { galleryData, GalleryItem } from '@/src/data/gallery';
+import { GalleryCard } from '@/src/components/ui/GalleryCard';
 
 const GallerySection = () => {
     const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
@@ -31,39 +32,14 @@ const GallerySection = () => {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {visibleItems.map((item) => (
-                        <div
+                        <GalleryCard
                             key={item.id}
-                            className="group relative aspect-square overflow-hidden rounded-2xl bg-gray-100 cursor-pointer"
+                            type={item.type}
+                            src={item.src}
+                            alt={item.alt}
+                            category={item.category}
                             onClick={() => setSelectedItem(item)}
-                        >
-                            <div className="relative w-full h-full">
-                                {item.type === 'video' ? (
-                                    <video
-                                        src={item.src}
-                                        autoPlay
-                                        muted
-                                        loop
-                                        playsInline
-                                        className="w-full h-full object-cover"
-                                    />
-                                ) : (
-                                    <Image
-                                        src={item.src}
-                                        alt={item.alt}
-                                        fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
-                                    />
-                                )}
-                            </div>
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                                <span className="text-gray-300 text-xs font-bold uppercase mb-1 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                    {item.category}
-                                </span>
-                                <h4 className="text-white font-bold text-lg leading-tight translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
-                                    {item.alt}
-                                </h4>
-                            </div>
-                        </div>
+                        />
                     ))}
 
                 </div>

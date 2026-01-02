@@ -25,7 +25,7 @@ export default function HeroSection() {
                     Apabila Hasil Tidak Sesuai
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed font-medium">
-                    Spesialis pembuatan kemeja, jaket, dan seragam dengan standar kualitas garmen. Pengerjaan tepat waktu, harga kompetitif, dan bergaransi.
+                    Spesialis konveksi kaos partai/event, jersey, polo golf, kemeja, jaket. semua di kerjakan dengan team professional yang paling berkualitas. Pengerjaan tepat waktu, harga kompetitif dan bergaransi.
                 </p>
                 <div className="pt-2 md:pt-4">
                     <Button

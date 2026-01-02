@@ -1,8 +1,8 @@
 "use client";
 
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
 import { testimonialsData } from '@/src/data/testimonials';
+import { TestimonialCard } from '@/src/components/ui/TestimonialCard';
 
 const TestimonialSection = () => {
 
@@ -20,29 +20,13 @@ const TestimonialSection = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {testimonialsData.map((item) => (
-                        <div
+                        <TestimonialCard
                             key={item.id}
-                            className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 relative group h-[400px] flex flex-col"
-                        >
-                            <Quote className="absolute top-6 right-6 w-10 h-10 text-gray-100 group-hover:text-gray-200 transition-colors" />
-                            <div className="flex gap-1 mb-6 text-[#C5A968]">
-                                {[...Array(item.rating)].map((_, i) => (
-                                    <Star key={i} className="w-5 h-5 fill-current" />
-                                ))}
-                            </div>
-                            <p className="text-gray-600 leading-relaxed mb-auto relative z-10 flex-grow overflow-y-auto">
-                                "{item.content}"
-                            </p>
-                            <div className="flex items-center gap-4 border-t border-gray-100 pt-6 mt-6">
-                                <div className="w-12 h-12 rounded-full bg-black text-white font-bold flex items-center justify-center text-lg shadow-md flex-shrink-0">
-                                    {item.name.charAt(0)}
-                                </div>
-                                <div>
-                                    <h4 className="font-bold text-black text-sm">{item.name}</h4>
-                                    <p className="text-xs text-gray-500 font-semibold">{item.role}</p>
-                                </div>
-                            </div>
-                        </div>
+                            rating={item.rating}
+                            content={item.content}
+                            name={item.name}
+                            role={item.role}
+                        />
                     ))}
                 </div>
             </div>
