@@ -10,13 +10,13 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div>
-                        <div className="mb-6 w-40 h-20 rounded-xl bg-white shadow-lg flex items-center justify-center p-2">
+                        <div className="mb-6 w-40 h-40 rounded-xl bg-white shadow-lg flex items-center justify-center p-4 overflow-hidden">
                             <Image
-                                src="/image/logo/logo1.png"
+                                src="/image/logo/logo03.png"
                                 alt="ANSA Konveksi Logo"
-                                width={200}
-                                height={200}
-                                className="object-contain"
+                                width={150}
+                                height={150}
+                                className="object-contain max-w-full max-h-full"
                             />
                         </div>
                         <p className="text-sm leading-relaxed mb-6 text-gray-500">
@@ -62,7 +62,7 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     className="mt-1 hover:text-black transition-colors cursor-pointer"
                                 >
-                                    PANDAWA GARMENT TANGERANG<br />
+                                    ANSA KONVEKSI<br />
                                     Jl. Ciledug Raya No.7, RT.001/RW.002,<br />
                                     Cipadu, Kec. Larangan,<br />
                                     Kota Tangerang, Banten 15154
