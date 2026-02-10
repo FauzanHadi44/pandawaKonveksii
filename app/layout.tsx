@@ -18,6 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ANSA Konveksi - Solusi Konveksi Terpercaya",
   description: "ANSA Konveksi menyediakan layanan konveksi berkualitas untuk kaos custom, jaket, seragam kantor, dan jersey olahraga dengan harga bersaing.",
+  keywords: 'konveksi, jasa jahit, buat seragam, konveksi cipadu, konveksi tangerang, konveksi jakarta',
 };
 
 export default function RootLayout({
