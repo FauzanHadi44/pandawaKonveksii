@@ -16,9 +16,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ANSA Konveksi - Solusi Konveksi Terpercaya",
-  description: "ANSA Konveksi menyediakan layanan konveksi berkualitas untuk kaos custom, jaket, seragam kantor, dan jersey olahraga dengan harga bersaing.",
-  keywords: 'konveksi, jasa jahit, buat seragam, konveksi di cipadu, konveksi di tangerang, konveksi di jakarta',
+  title: "ANSA Konveksi - Solusi Konveksi Terpercaya di Cipadu",
+  description: "Jasa konveksi terbaik di Tangerang dan Cipadu. Melayani pembuatan kaos custom, jaket, seragam kantor, dan jersey dengan harga murah & kualitas distro.",
+  keywords: [
+    'konveksi tangerang', 
+    'konveksi cipadu', 
+    'jasa jahit seragam tangerang', 
+    'bikin kaos tangerang', 
+    'konveksi murah jakarta', 
+    'ansa konveksi'
+  ],
+  authors: [{ name: 'ANSA Konveksi' }],
+  creator: 'ANSA Konveksi',
+  openGraph: {
+    title: 'ANSA Konveksi Tangerang - Solusi Konveksi Terpercaya di Cipadu',
+    description: 'Jasa konveksi terbaik di Tangerang dan Cipadu. Melayani pembuatan kaos custom, jaket, seragam kantor, dan jersey dengan harga murah & kualitas distro.',
+    url: 'https://ansakonveksi.com',
+    siteName: 'ANSA Konveksi',
+    locale: 'id_ID',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
